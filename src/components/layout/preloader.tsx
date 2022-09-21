@@ -54,7 +54,7 @@ const Preloader = () => {
         '-=2',
       )
       .add(() => {
-        lenis?.start();
+        // lenis?.start();
       });
 
     return () => {

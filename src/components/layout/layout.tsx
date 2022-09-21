@@ -47,11 +47,11 @@ const Layout = ({ children }: layoutProps) => {
     };
   }, []);
 
-  useEffect(() => {
-    if (lenis) {
-      lenis?.stop();
-    }
-  }, [lenis]);
+  // useEffect(() => {
+  //   if (lenis) {
+  //     lenis?.stop();
+  //   }
+  // }, [lenis]);
 
   useIsomorphicLayoutEffect(() => {
     if (lenis) ScrollTrigger.refresh();
