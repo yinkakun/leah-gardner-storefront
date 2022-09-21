@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope Regular'), local('Manrope-Regular'),
+    url('../fonts/Manrope-Regular.woff2') format('woff2'),
+    url('../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: local('Lora Regular'), local('Lora-Regular'),
+    url('../fonts/Lora-Regular.woff2') format('woff2'),
+    url('../fonts/Lora-Regular.woff') format('woff'),
+    url('../fonts/Lora-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope ExtraBold'), local('Manrope-Extra-Bold'),
+    url('../fonts/Manrope-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope Bold'), local('Manrope-Bold'),
+    url('../fonts/Manrope-Bold.woff2') format('woff2'),
+    url('../fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .writing-mode-rtl {
+    writing-mode: rtl;
+  }
+
+  .writing-mode-ltr {
+    writing-mode: ltr;
+  }
+
+  .writing-mode-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .writing-mode-vertical-lr {
+    writing-mode: vertical-lr;
+  }
+}
